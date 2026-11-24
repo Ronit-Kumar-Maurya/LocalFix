@@ -30,7 +30,7 @@ const app = express();
 app.use(helmet());
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'https://localfix-1en7tg97c-local-fix.vercel.app',
+    origin: process.env.CLIENT_URL || 'https://local-fix-neon.vercel.app',
     credentials: true,
   })
 );
